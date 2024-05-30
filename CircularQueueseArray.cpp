@@ -116,7 +116,13 @@ int main() {
             cin >> ch;
             cout << endl;
 
+            switch (ch) {
+            case '1': {
+                q.insert();
+                break;
+            }
             
+            }
         }
         catch (exception& e) {
             cout << "Check for the value entered." << endl;
