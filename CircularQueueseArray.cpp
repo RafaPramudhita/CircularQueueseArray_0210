@@ -132,7 +132,10 @@ int main() {
             case '4': {
                 return;
             }
-            
+            default: {
+                cout << "Invalid option" << endl;
+                break;
+            }
             }
         }
         catch (exception& e) {
