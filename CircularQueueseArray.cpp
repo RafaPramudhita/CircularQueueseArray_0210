@@ -142,5 +142,5 @@ int main() {
             cout << "Check for the value entered." << endl;
         }
     }
-   
+    return 0;
 }
